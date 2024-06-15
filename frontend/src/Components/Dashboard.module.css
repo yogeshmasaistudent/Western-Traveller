@@ -1,0 +1,10 @@
+.firstContener{
+  /* border: 1px solid rebeccapurple; */
+  margin-top: 5px;  
+  border-radius: 5px;
+  padding: 8px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.Requirementcontener{
+  border: 1px solid red;
+}

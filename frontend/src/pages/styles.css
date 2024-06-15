@@ -1,0 +1,62 @@
+/* styles.css */
+.profile-container {
+    padding: 20px;
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile-header .chakra-avatar {
+    margin-right: 20px;
+}
+
+.profile-details {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.profile-tabs {
+    margin-top: 20px;
+}
+
+
+
+
+/* styles.css */
+.custom-tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+
+.custom-tab {
+    background-color: #dde1e4;
+    border-radius: 8px;
+    color: black;
+    font-weight: bold;
+    padding: 8px 16px;
+    margin-right: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.custom-tab:hover {
+    background-color: #c5c8cb;
+}
+
+.custom-tab[data-selected="true"] {
+    background-color: #3182ce;
+    color: white;
+    border-radius: 5px;
+}
+
+.custom-tablist {
+    border-bottom: none;
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+}

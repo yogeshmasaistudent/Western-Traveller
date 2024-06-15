@@ -1,0 +1,15 @@
+.App {
+  display: flex;
+}
+
+.main-content {
+  margin-left: 250px;
+  /* Width of the fixed sidebar */
+  margin-top: 60px;
+  /* Height of the fixed header */
+  flex-grow: 1;
+  height: calc(100vh - 60px);
+  /* Adjust height to accommodate the fixed header */
+  overflow-y: auto;
+  /* Allows the main content to scroll */
+}

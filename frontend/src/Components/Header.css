@@ -1,0 +1,40 @@
+.header {
+    width: calc(100% - 250px);
+    /* Adjust width to accommodate the fixed sidebar */
+    height: 60px;
+    position: fixed;
+    top: 0;
+    left: 250px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 1px solid #e9ecef;
+    background-color: hsl(0, 0%, 100%);
+    z-index: 1;
+    /* Ensures the header is above other content */
+}
+
+.header-left,
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.header-button {
+    margin-right: 10px;
+    padding: 10px 15px;
+    border: 1px solid #e9ecef;
+    background-color: #fff;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+
+.header-button:hover {
+    background-color: #e9ecef;
+}
+
+.header-search {
+    padding: 5px;
+    border: 1px solid #e9ecef;
+    border-radius: 4px;
+}
